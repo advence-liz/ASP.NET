@@ -1,0 +1,11 @@
+D:\Git\sharpgui\sharpGUI\httpClient\obj\Debug\httpClient.csprojResolveAssemblyReference.cache
+D:\Git\sharpgui\sharpGUI\httpClient\bin\Debug\httpClient.exe.config
+D:\Git\sharpgui\sharpGUI\httpClient\bin\Debug\httpClient.exe
+D:\Git\sharpgui\sharpGUI\httpClient\bin\Debug\httpClient.pdb
+D:\Git\sharpgui\sharpGUI\httpClient\bin\Debug\System.Net.Http.Extensions.dll
+D:\Git\sharpgui\sharpGUI\httpClient\bin\Debug\System.Net.Http.Formatting.dll
+D:\Git\sharpgui\sharpGUI\httpClient\bin\Debug\System.Net.Http.Primitives.dll
+D:\Git\sharpgui\sharpGUI\httpClient\obj\Debug\httpClient.exe
+D:\Git\sharpgui\sharpGUI\httpClient\obj\Debug\httpClient.pdb
+D:\Git\sharpgui\sharpGUI\httpClient\bin\Debug\Newtonsoft.Json.dll
+D:\Git\sharpgui\sharpGUI\httpClient\obj\Debug\httpClient.csproj.httpClient.exe.config
