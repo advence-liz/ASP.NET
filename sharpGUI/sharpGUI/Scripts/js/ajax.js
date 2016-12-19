@@ -18,7 +18,7 @@ window.fire = () =>   $.ajax({
 });
 var requestJson = JSON.stringify({ startId: 1, itemcount: 3 });
 $.ajax({
-    url: 'http://localhost/api/values/post',
+    url: 'http://localhost:1234/api/values/post',
     data: requestJson,
     type: "post",
     dataType: "json",
@@ -68,4 +68,18 @@ $(function () {
     $("input:first").click(function () {
         longPolling();
     });
+});
+//http://www.cnblogs.com/sytsyt/p/3297872.html
+
+var ng, $http;
+ng = angular.injector(['ng']);
+$http = ng.get("$http");
+$http({
+    method: 'Post',
+    url: 'http://localhost:1234/api/values/post'
+}).then(function successCallback(response) {
+    debugger;
+
+}, function errorCallback(response) {
+    debugger;
 });

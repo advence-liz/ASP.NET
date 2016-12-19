@@ -37,6 +37,9 @@
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+    @*直接引用Script写为script 竟然在浏览器上显示为单独一个文件夹*@
+    @Scripts.Render("~/Scripts/angular.js")
+    @Scripts.Render("~/Scripts/js/ajax.js")
     @RenderSection("scripts", required: false)
 </body>
 </html>
