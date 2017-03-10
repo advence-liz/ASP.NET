@@ -1,1 +1,1 @@
-﻿
+﻿require('../widget/button.js');
