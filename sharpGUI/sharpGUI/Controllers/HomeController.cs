@@ -10,6 +10,11 @@ namespace sharpGUI.Controllers
 {
     public class HomeController : Controller
     {
+        //public ActionResult Page(string id)
+        //{
+        //    ViewBag.Page = id + ".cshtml";
+        //    return View("~/Views/Demo/" + ViewBag.Page);
+        //}
         public ActionResult Index()
         {
             ViewBag.Title = "Home Page";
