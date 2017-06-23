@@ -9,7 +9,7 @@ $.get(
 );*/
 window.fire = () =>   $.ajax({
     type: "Get",
-    url: "api/Values/Get",
+    url: "http://localhost:1234/api/Values/Get",
 
 
     success: function (data) {

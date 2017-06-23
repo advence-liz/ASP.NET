@@ -10,7 +10,7 @@ namespace sharpGUI.Controllers
     //[Authorize]
     public class ValuesController : ApiController
     {
-        // GET api/values
+        //  //http://localhost:1234/api/values/get
         [HttpGet]
         public IEnumerable<string> Get()
         {

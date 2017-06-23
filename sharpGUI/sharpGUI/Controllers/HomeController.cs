@@ -15,6 +15,7 @@ namespace sharpGUI.Controllers
         //    ViewBag.Page = id + ".cshtml";
         //    return View("~/Views/Demo/" + ViewBag.Page);
         //}
+        //http://localhost:1234/home/index
         public ActionResult Index()
         {
             ViewBag.Title = "Home Page";
